@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Tracking - Tamil Nadu Traditional Food</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script defer src="assets/js/tracking.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Order Tracking</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="tracking.html">Order Tracking</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><button id="lang-switch">தமிழ் / English</button></li>
+                <script defer src="assets/js/lang.js"></script>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="tracking-container">
+        <h2>Current Order Status</h2>
+        <div id="order-status">
+            <p>No active orders.</p>
+        </div>
+
+        <h2>Order History</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Order ID</th>
+                    <th>Items</th>
+                    <th>Total Price (₹)</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody id="order-history"></tbody>
+        </table>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Tamil Nadu Traditional Food Delivery</p>
+    </footer>
+</body>
+</html>

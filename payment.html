@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment - Tamil Nadu Traditional Food</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script defer src="assets/js/payment.js"></script>
+    <script defer src="assets/js/lang.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Payment</h1>
+    </header>
+
+    <section class="payment-container">
+        <h2>Total Amount: ₹<span id="payment-total">0</span></h2>
+        <form id="payment-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" required>
+            
+            <label for="address">Delivery Address:</label>
+            <input type="text" id="address" required>
+
+            <label for="payment-method">Select Payment Method:</label>
+            <select id="payment-method">
+                <option value="upi">UPI</option>
+                <option value="card">Credit/Debit Card</option>
+                <option value="cod">Cash on Delivery</option>
+            </select>
+
+            <button type="submit">Place Order</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Tamil Nadu Traditional Food Delivery</p>
+    </footer>
+</body>
+</html>
